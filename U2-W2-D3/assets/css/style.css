@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Lato:ital,wght@1,100&family=Montserrat:ital,wght@1,400;1,600&family=Poppins:wght@100;200&family=Prata&display=swap');
+
+.buttons {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
+}
+
+.section-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-buttons button {
+  font-size: 1.5em;
+  margin: 50px;
+  box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
+}
+
+body {
+  background-color: red;
+  height: 100%;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar li {
+  background-color: rgb(103, 157, 201);
+  border: 2px, solid, black;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.frasi-celebri {
+  font-size: 1.8em;
+}
+
+.cards p {
+  font-size: 1.6em;
+}
+
+.text-image {
+  margin: 50px;
+}
+
+.section-buttons button {
+  margin: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.logo {
+  height: 13vh;
+  margin-left: 10vh;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-right: 50px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar li {
+  height: 5vh;
+  width: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+.text-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+  margin: 50px;
+}
+
+.fumetti {
+  height: 50vh;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
+}
+
+.article-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.imgs-card {
+  height: 30vh;
+  border: 2px solid black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin: 40px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 40%;
+  box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
+}/*# sourceMappingURL=style.css.map */

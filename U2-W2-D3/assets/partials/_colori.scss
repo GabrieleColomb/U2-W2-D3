@@ -1,0 +1,20 @@
+$colore: red;
+
+body {
+    background-color: $colore;
+    height: 100%
+}
+
+
+.navbar {
+    background-color: white;
+}
+
+.navbar li{
+    background-color:rgb(103,157,201);
+    border: 2px, solid, black;
+}
+
+a { color: rgb(0, 0, 0); }
+a:active { color: rgb(0, 0, 0); }
+a:visited { color: rgb(0, 0, 0); }
